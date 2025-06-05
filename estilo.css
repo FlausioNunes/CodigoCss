@@ -1,0 +1,115 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/* Rolar suavemente ao clicar em âncoras */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Tipografia de jogos retrô */
+body {
+  font-family: 'Press Start 2P', cursive;
+  background: linear-gradient(to bottom, #0f0f0f, #1a1a1a);
+  color: #f8f8f2;
+  line-height: 1.6;
+  padding: 20px;
+  background-image: url('https://www.transparenttextures.com/patterns/asfalt-dark.png');
+}
+
+/* Estilos de títulos, textos, links, seções, etc. */
+h1, h2 {
+  color: #00ffe7;
+  text-shadow: 2px 2px #000;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  border-bottom: 4px double #00ffe7;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-top: 30px;
+}
+
+p {
+  font-size: 0.9rem;
+  margin-bottom: 15px;
+  color: #000;
+}
+
+/* Menu de navegação */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+nav ul a {
+  text-decoration: none;
+}
+
+nav ul li {
+  background-color: #222;
+  border: 2px solid #00ffe7;
+  color: #00ffe7;
+  padding: 10px 15px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+nav ul li:hover {
+  background-color: #00ffe7;
+  color: #111;
+  transform: scale(1.1);
+}
+
+/* Seções de conteúdo */
+#intro-pag {
+  margin-bottom: 30px;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.conteudo-padrao {
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 20px;
+  margin-bottom: 30px;
+  border-left: 6px solid #00ffe7;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 255, 231, 0.1);
+}
+
+img {
+  width: 100%;
+  max-width: 400px;
+  display: block;
+  margin: 20px auto;
+  border: 4px solid #00ffe7;
+  border-radius: 8px;
+}
+
+/* Rodapé */
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #000;
+  border-top: 2px solid #00ffe7;
+  color: #00ffe7;
+  font-size: 0.8rem;
+  margin-top: 40px;
+}
